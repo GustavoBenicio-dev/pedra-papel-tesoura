@@ -1,5 +1,8 @@
 # 🎮 Pedra Papel Tesoura
 
+## 🔗 Jogar online
+https://gustavobenicio-dev.github.io/pedra-papel-tesoura/
+
 Este é um projeto simples do jogo Pedra, Papel e Tesoura desenvolvido para praticar lógica de programação usando JavaScript.
 
 ## 📌 Objetivo
