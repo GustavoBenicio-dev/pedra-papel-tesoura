@@ -1,0 +1,53 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(135deg,#4879d3,#2056b4);
+    color: white;
+    height: 100vh;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+button{
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #ffd166;
+}
+
+.placar{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.escolhas{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#resultado{
+    margin-top: 30px;
+    font-size: 28px;
+    animation: aparecer o.5s;
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pedra Papel Tesoura</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+
+    <body>
+
+        <h1>🎮 Pedra Papel Tesoura</h1>
+
+        <div class="placar">
+            <p>👨‍🦰 Jogador: <span id="pontosJogador">0</span></p>
+            <p>💻 Computador: <span id="pontosComputador">0</span></p>
+        </div>
+
+        <div class="botoes">
+            <button onclick="jogar('pedra')">🪨 Pedra</button>
+            <button onclick="jogar('papel')">📄 Papel</button>
+            <button onclick="jogar('tesoura')">✂ Tesoura</button>
+        </div>
+
+        <div class="escolhas">
+            <p id="escolhaJogador"></p>
+            <p id="escolhaComputador"></p>
+        </div>
+
+        <h2 id="resultado"></h2>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
